@@ -18,7 +18,7 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y gcc
 
       - name: Compile C program
-        run: gcc main.c -o main
+        run: gcc even1to100.c -o even1to100
 
       - name: Run C program
-        run: ./main
+        run: ./even1to100
